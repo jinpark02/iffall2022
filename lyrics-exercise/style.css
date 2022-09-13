@@ -1,0 +1,26 @@
+p,h1,h2{font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+p,h1,h2{text-align: center}
+
+p,h1,h2{ color:black;}
+
+.audio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+h1{
+    font-size: 50px;
+    line-height: 300%;
+}
+
+h2{line-height: 20%;}
+
+body {
+    background-image: url('minionsbackgroundside.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: white;
+}
