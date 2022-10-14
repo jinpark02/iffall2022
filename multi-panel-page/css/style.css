@@ -1,0 +1,149 @@
+html {
+    font-family: 'Archivo Narrow', sans-serif;
+    line-height:1.4;
+    display:block;
+}
+
+.content-area{
+    margin:auto;
+    width:960px;
+}
+
+header{
+    background-image: url(https://populous.com/wp-content/uploads/2018/01/Tottenham-hotspur-stadium-hero-scaled.jpg);
+    background-size: cover;
+    height:480px;
+    text-align: center;
+}
+
+header h1{
+    font-size:80px;
+    color: white;
+    margin-top:0;
+    margin-bottom:15px;
+    padding-top: 150px;
+    padding-bottom:0px;
+    margin-bottom:15px;
+}
+
+header h2{
+    font-size: 30px;
+    color: white;
+    line-height:1.1px;
+    padding-bottom: 140px;
+    margin-top:0px;
+}
+
+#description{
+   background-color:rgb(40, 73, 134, 1);
+   padding-top:10px;
+   height: 708px;   
+}
+
+#description h3{
+    font-size: 40px;
+    text-align:center;
+    margin-top: 30px;
+    margin-bottom: -5px;
+}
+
+#description p{
+    line-height: 1.4em;
+    margin-top: 35px;
+    margin-bottom: -20px;
+    font-size: 18px;
+}
+
+.right-photo{
+    float:right;
+    margin: 36px 0 2rem 40px;
+}
+
+#grid{
+    background-color:rgb(145, 184, 255);
+    padding-top:20px;
+    padding-bottom: 570px;
+}
+
+#grid h3{
+    font-size: 40px;
+    text-align:center;
+    line-height:0.6;
+    margin-top: 35px;
+}
+
+ul.grid {
+    list-style: none;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+ul.grid li {
+    display: flex;
+    width: 50%;
+    margin: 0px 0 15px 0;
+    float: left;
+}
+
+ul.grid #caption{
+    line-height:1.4;
+    margin: 5px 0 15px 0;
+}
+
+.teamphoto {
+    float: left;
+    margin-top: 8px;
+}
+
+.tile {
+    margin-left: 12px;
+    text-align: left;
+    padding-right: 25px;
+}
+
+.tile p{
+    font-size:18px;
+}
+
+.tile h4 {
+    padding-top:8px;
+    font-size: 20px;
+    margin: 0px;
+}
+
+#conclusion{
+    background-color:rgb(22, 51, 108);
+    color:white;
+    margin-top:0px;
+    margin-bottom:53px;
+    padding-bottom:102px;
+}
+
+#conclusion p{
+    text-align: center;
+    margin: 0 125px 0 125px;
+    font-size: 26px;
+    line-height: 36.5px;
+    padding-bottom:1px;
+}
+
+#conclusion h3{
+    font-size: 40px;
+    padding-top:54px;
+    padding-bottom:0px;
+    text-align:center;
+    line-height:0.65;
+    margin-top: 0px;
+    margin-bottom: 45px;
+}
+
+#footer{
+    background-color:white,50%;
+    padding-top: 0px;
+    padding-bottom:0px;
+}
+
+#copyright {
+    font-size:18px;
+    margin-top: -17px;
+}
