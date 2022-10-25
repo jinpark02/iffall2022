@@ -1,0 +1,270 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+    line-height:1.4;
+}
+
+.content-area{
+    margin: auto;
+    max-width: 80%;
+}
+
+header{
+    height: 10%;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+
+#hero{
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+    max-height: 1080px;
+    max-width: 80%;
+    border-radius: 10%;
+}
+
+#title{
+   /* background-color:rgb(40, 73, 134, 1); */
+   padding-top: 30px;
+   height: auto;   
+}
+
+#title h3{
+    display: inline;    
+    font-size: 40px;
+    text-align:left;
+    margin-top: 20px;
+    margin-bottom: -5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 10px;
+    background-color: rgb(255, 242, 157);
+    border-radius: 30px;
+}
+
+#introduction{
+    /* background-color:rgb(145, 184, 255); */
+    padding-bottom: 220px;
+    max-height: 80px;
+}
+
+#introduction p{
+    line-height: 1.4em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 35px;
+    margin-bottom: -20px;
+    font-size: 18px;
+    border: 2px solid black;  
+    border-radius: 30px;
+}
+
+ul.split {
+    list-style: none;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+ul.split li {
+    display: block;
+    width: 50%;
+    margin: 0px 0 15px 0;
+    float: left;
+}
+#description p{
+    line-height: 1.4em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 35px;
+    margin-bottom: -20px;
+    font-size: 18px;
+    border: 2px solid black;  
+    border-radius: 30px;
+}
+
+#ingredients p{
+    line-height: 1.4em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 35px;
+    margin-bottom: -20px;
+    font-size: 18px;
+    border: 2px solid black;  
+    border-radius: 30px;
+}
+
+#grid{
+    /* background-color:rgb(145, 184, 255); */
+    padding-top:20px;
+    padding-bottom: 570px;
+    height: 960px;
+}
+
+#grid h3{
+    font-size: 40px;
+    text-align:left;
+    padding-top: 20px;
+    margin-bottom: -10px;
+}
+
+ul.grid {
+    list-style: none;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+ul.grid li {
+    display: flex;
+    width: 50%;
+    margin: 0px 0 15px 0;
+    float: left;
+}
+
+ul.grid #caption{
+    line-height:1.4;
+    margin: 5px 0 15px 0;
+}
+
+.steps {
+    float: left;
+    margin-top: 8px;
+    border-radius: 10%;
+}
+
+.tile {
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: left;
+}
+
+.tile p{
+    font-size:18px;
+    padding-left: 10px;
+}
+
+.tile h4 {
+    padding-top:8px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin: 0px;
+}
+
+#credits{
+    /* background-color:rgb(22, 51, 108); */
+    color:black;
+    margin-top:0px;
+    margin-bottom:53px;
+    padding-bottom:102px;
+}
+
+#credits p{
+    text-align: left;
+    margin: 0 -30px 0 0;
+    font-size: 26px;
+}
+
+
+#footer{
+    background-color:white,50%;
+    padding-top: 0px;
+    padding-bottom:0px;
+}
+
+#copyright {
+    font-size:18px;
+    margin-top: -17px;
+}
+
+@media (max-width: 1329px){
+    #grid li{
+        width: 100%;
+    }
+}
+
+@media (min-width: 1330px){
+    #grid li{
+        width: 50%;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 639px){
+    #stretchable-grid-items li{
+        width: 50%;
+    }
+}
+
+
+@media (max-width: 1429px){
+    #introduction li{
+        width: 100%;
+    }
+}
+
+@media (min-width: 1430px){
+    #introduction li{
+        width: 50%;
+    }
+}
+
+@media (max-width: 599px){
+    #title h3{
+        display: inline;    
+        font-size: 20px;
+        text-align:left;
+        margin-top: 20px;
+        margin-bottom: -35px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 10px;
+        background-color: rgb(255, 242, 157);
+        border-radius: 30px;
+    }
+
+    #introduction p{
+        line-height: 1.4em;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 35px;
+        margin-bottom: -20px;
+        font-size: 12px;
+        border: 2px solid black;  
+        border-radius: 30px;
+    }
+
+    .tile p{
+        font-size:12px;
+        padding-left: 10px;
+    }
+    
+    .tile h4 {
+        padding-top:8px;
+        padding-left: 10px;
+        font-size: 15px;
+        margin: 0px;
+    }
+
+    #grid h3{
+        font-size: 20px;
+        text-align:left;
+        padding-top: 20px;
+        margin-bottom: -10px;
+    }
+    
+    #credits p{
+        text-align: left;
+        margin: 0 -30px 0 0;
+        font-size: 13px;
+    }
+}
+
