@@ -1,12 +1,15 @@
 html{
     margin: 10%;
-    background-color: skyblue;
+    background-color: rgb(198, 239, 255);
 }
 
 a, p, h1, h2, h3{
     font-family: proxima-nova, sans-serif;
 }
 
+a{
+    color: black;
+}
 h1{
     font-weight: 700;
     font-style: normal;
