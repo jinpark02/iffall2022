@@ -1,0 +1,13 @@
+html{
+    margin: 10%;
+    background-color: skyblue;
+}
+
+a, p, h1, h2, h3{
+    font-family: proxima-nova, sans-serif;
+}
+
+h1{
+    font-weight: 700;
+    font-style: normal;
+}
